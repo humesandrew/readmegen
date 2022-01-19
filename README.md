@@ -1,27 +1,28 @@
-# Andy
-      ![GitHub License](https://img.shields.io/badge/license-Humes-blue.svg)
+# Readmegen
+      ![GitHub License](https://img.shields.io/badge/license-humesandrew-blue.svg)
       ## Description
-  kdsjle
+  This is a readme generator.
 
       ## Table of Contents (Optional)
       - [Installation](#installation)
       - [Usage](#usage)
       - [license](#license)
       - [Contributing](#contributing)
-      - [Credits](#credits)
       - [License](#license)
+      - [Questions](#questions)
 
       ## Installation
-      eri;
+      No;
 
       ## Usage
-      cvck
+      Run with node in terminal.
 
       ## License
-              This project is licensed under Humes license.
+              This project is licensed under humesandrew license.
 
       ## Contributing
-    dkfj
+    Created with VS Code and Node.js.
 
-      ## Credits
-      er
+      ## Questions
+          GitHub Username: [humesandrew](https://github.com/humesandrew)
+          For questions, email: humes.andrew@gmail.com(href="mailto:humes.andrew@gmail.com")

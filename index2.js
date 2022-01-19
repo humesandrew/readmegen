@@ -16,6 +16,14 @@ var questions = [
     name: 'license',
     message: 'What is your GitHub license?'},
 
+    {type: 'input',
+    name: 'githubuser',
+    message: "What is your GitHub user name?"},
+
+        {type: 'input',
+        name: 'email',
+        message: 'What is your email address?'},
+
     {type: 'input', 
     name: 'description',
     message: "Describe your project."},
@@ -31,10 +39,6 @@ var questions = [
     {type: 'input',
     name: 'contributing',
     message: "Any contribution guidelines?"}, 
-
-    {type: 'input',
-    name: "credits",
-    message: "Any credits?"}
 ]
 
 

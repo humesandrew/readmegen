@@ -44,8 +44,8 @@ function generateMarkdown(data) {
       - [Usage](#usage)
       - ${renderLicenseLink(data.license)}
       - [Contributing](#contributing)
-      - [Credits](#credits)
       - [License](#license)
+      - [Questions](#questions)
 
       ## Installation
       ${data.installation};
@@ -58,8 +58,9 @@ function generateMarkdown(data) {
       ## Contributing
     ${data.contributing}
 
-      ## Credits
-      ${data.credits}
+      ## Questions
+          GitHub Username: [${data.githubuser}](https://github.com/${data.githubuser})
+          For questions, email: ${data.email}(mailto:${data.email})
 `;
 }
 
