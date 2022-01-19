@@ -1,66 +1,66 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (license !== 'None') {
-    
+  if (license !== "None") {
     return `![GitHub License](https://img.shields.io/badge/license-${license}-blue.svg)`;
   } else {
-    return '';
+    return "";
   }
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (license !== 'None') {
-    
+  if (license !== "None") {
     return `[license](#license)`;
   } else {
-    return '';
+    return "";
   }
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (license !== 'None') {
-    
+  if (license !== "None") {
     return `## License
             This project is licensed under ${license} license.`;
   } else {
-    return '';
+    return "";
   }
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-      ${renderLicenseBadge(data.license)}
-      ## Description
-       ${data.description}
+  ${renderLicenseBadge(data.license)}
+  ## Description
+    ${data.description}
 
-      ## Table of Contents (Optional)
-      - [Installation](#installation)
-      - [Usage](#usage)
-      - ${renderLicenseLink(data.license)}
-      - [Contributing](#contributing)
-      - [License](#license)
-      - [Questions](#questions)
+  ## Table of Contents (Optional)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Questions](#questions)
 
-      ## Installation
-       ${data.installation};
+  ## Installation
+    ${data.installation};
 
-      ## Usage
-       ${data.usage}
+  ## Usage
+  [Click for video walkthrough.](https://watch.screencastify.com/v/oNNiv6lZvPtvtPcSyiZS)
+    
+    ${data.usage}
 
-       ${renderLicenseSection(data.license)}
+  ## License
+    This project is licensed under ${data.license}.
 
-      ## Contributing
-       ${data.contributing}
+  ## Contributing
+    ${data.contributing}
 
-      ## Questions
-       GitHub Profile: [${data.githubuser}](https://github.com/${data.githubuser})
-       For questions, email: ${data.email}(mailto:${data.email})
+  ## Questions
+  [Click for GitHub Profile.](https://github.com/${data.githubuser})
+
+  [Click to email.](mailto:${data.email})
 `;
 }
 

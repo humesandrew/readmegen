@@ -1,28 +1,30 @@
-# Andy
+# Readme Generator
   ![GitHub License](https://img.shields.io/badge/license-humesandrew-blue.svg)
   ## Description
-    This is a readme generator.
+    This is a readme generator, it will generate a quality readme file for you.
 
   ## Table of Contents (Optional)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [license](#license)
   - [Contributing](#contributing)
   - [License](#license)
   - [Questions](#questions)
 
   ## Installation
-    You must install node. ;
+    Node js;
 
   ## Usage
-    Please don't break!
+  [Click for video walkthrough.](https://watch.screencastify.com/v/oNNiv6lZvPtvtPcSyiZS)
+    
+    Please don't break.
 
-    ## License
-        This project is licensed under humesandrew license.
+  ## License
+    This project is licensed under humesandrew.
 
   ## Contributing
-    No
+    Github, Node, VS Code
 
   ## Questions
-    GitHub Profile: [humesandrew](https://github.com/humesandrew)
-    For questions, email: humes.andrew@gmail.com(mailto:humes.andrew@gmail.com)
+  [Click for GitHub Profile.](https://github.com/humesandrew)
+
+  [Click to email.](mailto:humes.andrew@gmail.com)
