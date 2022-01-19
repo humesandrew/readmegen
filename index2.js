@@ -49,6 +49,6 @@ var questions = [
     //    console.log(data.title);
        
         // fs.writeFileSync("readme.txt", JSON.stringify(data, null, '\t'), generateMarkdown(data));
-        fs.writeFileSync("readme.md", generateMarkdown(data));
+        fs.writeFileSync("README.md", generateMarkdown(data));
     }
     )
