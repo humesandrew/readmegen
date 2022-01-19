@@ -26,7 +26,7 @@ function renderLicenseSection(license) {
   if (license !== 'None') {
     
     return `## License
-              This project is licensed under ${license} license.`;
+            This project is licensed under ${license} license.`;
   } else {
     return '';
   }
@@ -37,7 +37,7 @@ function generateMarkdown(data) {
   return `# ${data.title}
       ${renderLicenseBadge(data.license)}
       ## Description
-  ${data.description}
+       ${data.description}
 
       ## Table of Contents (Optional)
       - [Installation](#installation)
@@ -48,19 +48,19 @@ function generateMarkdown(data) {
       - [Questions](#questions)
 
       ## Installation
-      ${data.installation};
+       ${data.installation};
 
       ## Usage
-      ${data.usage}
+       ${data.usage}
 
-      ${renderLicenseSection(data.license)}
+       ${renderLicenseSection(data.license)}
 
       ## Contributing
-    ${data.contributing}
+       ${data.contributing}
 
       ## Questions
-          GitHub Username: [${data.githubuser}](https://github.com/${data.githubuser})
-          For questions, email: ${data.email}(mailto:${data.email})
+       GitHub Profile: [${data.githubuser}](https://github.com/${data.githubuser})
+       For questions, email: ${data.email}(mailto:${data.email})
 `;
 }
 
