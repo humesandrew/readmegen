@@ -21,7 +21,7 @@
     This project is licensed under humesandrew.
 
   ## Contributing
-    This project uses Service Workers, Webpack, and idb. 
+    This project was created by Andy Humes. 
 
   ## Questions
  [Click for GitHub Repository.](https://github.com/humesandrew/readmegen)
