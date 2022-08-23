@@ -1,23 +1,21 @@
-# offlineTextEditor
+# Readme Generator
   ![GitHub License](https://img.shields.io/badge/license-humesandrew-blue.svg)
   ## Description
-    This is text editor application that is able to run without an internent connection. 
+    This is a command line application that will conveniently create a readme.md file for you. 
 
   ## Table of Contents (Optional)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contributing](#contributing)
   - [License](#license)
+  - [Contributing](#contributing)
   - [Questions](#questions)
 
   ## Installation
-    Run npm install then npm start.;
+    Run npm install then npm start.
 
   ## Usage
- 
- Click to type some content. This content will persist, even without a network connection. Click intall to install a local application on your device. 
-    
-    
+ ![Screenshot](/readmegen.jpg?raw=true "Screenshot")
+ Run node index in your command line to get started. Simply answer the prompts and the readme file will generate for you when it's finished.  
 
   ## License
     This project is licensed under humesandrew.
@@ -26,7 +24,7 @@
     This project uses Service Workers, Webpack, and idb. 
 
   ## Questions
-  [Click for deployed page on Heroku](https://offlinetexteditor.herokuapp.com/)
+ [Click for GitHub Repository.](https://github.com/humesandrew/readmegen)
 
   [Click for GitHub Profile.](https://github.com/humesandrew)
 
